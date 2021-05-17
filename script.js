@@ -102,7 +102,17 @@ const info = document.querySelectorAll('.main__product-info');
       viewImg = document.querySelector('img');
       viewClose = document.querySelector('.view__close');
 
-info.forEach(el => el.addEventListener('dblclick', e=>{
+var val = "";      
+
+if(window.innerWidth > 710){
+  val = 'dblclick'
+  console.log(val);
+}else{
+  val = 'click'  
+  console.log(val);   
+}
+
+info.forEach(el => el.addEventListener(val, e=>{
   const img = e.target
     .closest('.main__product-info')
     .querySelector('.main__product-img')
@@ -131,4 +141,5 @@ const count = (i = 0) => {
   }, time);
 }
 count()
+
 

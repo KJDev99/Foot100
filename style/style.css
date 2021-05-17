@@ -39,6 +39,7 @@ a {
     box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .main__product {
     width: calc(100% / 3);
@@ -289,6 +290,8 @@ a {
     transition: 0.5s;
     top: -100%;
     position: absolute;
+
+
 }
 .receipt__window-out {
     flex-grow: 1;
@@ -373,6 +376,9 @@ a {
         width: 100%;
         margin-bottom: 20px;
         border: none;
+    }
+    .receipt.active .receipt__window{
+        width: 60%;
     }
     .main {
         width: 80%;
