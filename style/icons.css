@@ -1,6 +1,6 @@
 :root {
-    --regular: 'FA Regular';
-    --light: 'FA light';
+    --regular: 'Fa Regular';
+    --light: 'Fa light';
 }
 .fa-reg {
     font-family: var(--regular);
