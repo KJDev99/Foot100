@@ -14,21 +14,12 @@ a {
 .header {
     width: 100%;
     min-height: 600px;
-    background: url(../images/burger.jpg) no-repeat center center /cover;
+    background: url(../images/motors-logo.jpg) no-repeat center center /cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: 0 -50px 50px -50px #000000 inset, 0 0 10px 0 rgba(0, 0, 0, 0.52);
-}
-.header__title {
-    font-size: 60px;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.698);
-}
-.header__descr {
-    font-size: 25px;
-    color: #fff;
 }
 .main {
     width: 80%;
@@ -45,7 +36,7 @@ a {
     width: calc(100% / 3);
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
+    padding: 10px;
     border-right: 1px solid #e7e8ec;
 }
 .main__product:last-of-type {
@@ -230,11 +221,7 @@ a {
 .main__product-checkbox:checked ~ .main__product-check {
     border-color: #008000;
 }
-.main__product-kcall {
-    text-align: center;
-    font-size: 18px;
-    margin: 10px 0 5px;
-}
+
 .header__cart {
     color: #fff;
     font-size: 25px;
